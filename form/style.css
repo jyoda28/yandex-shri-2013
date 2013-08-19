@@ -1,0 +1,99 @@
+body {
+font: .8em Arial,Helvetica,sans-serif;
+}
+textarea {
+width: 99%;
+resize: vertical;
+height: 70px;
+margin-top: 5px;
+-webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075);
+		border-color: rgba(0, 0, 0, 0.2);
+}
+table {
+width: 100%;
+}
+textarea[name="additional"] {
+width: 74%;
+padding: 0px;
+}
+hr {
+display: block;
+margin: 0px;
+background: #e4e4e4;
+}
+.left {
+width: 30%
+}
+.additional {
+width: 99%;
+}
+input {
+display: block;
+width: 100%;
+-webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075);
+		border-color: rgba(0, 0, 0, 0.2);
+border: 1px solid rgba(0, 0, 0, 0.2);
+}
+input[name="file"] {
+visibility: hidden;
+height: 0px;		
+}
+label[blockId] {
+visibility: hidden;
+font-size: .7em;
+color: red;
+font-weight: bold;
+}
+.header {
+width: 50%;
+margin: 0 auto 25px auto;
+}
+.form {
+width: 50%;
+margin-left:auto;
+margin-right:auto;
+}
+.divider {
+border-bottom: 1px solid #e4e4e4;
+clear: both;
+padding: 10px 0;
+margin-bottom: 20px;
+}
+.td-left {
+width: 25%;
+vertical-align: top;
+font-style: italic;
+float:left;
+}
+.td-left span {
+border-bottom: 1px dotted;
+}
+.td-left span:hover {
+border-bottom: none;
+cursor: pointer;
+}
+.slide{
+width: 75%;
+float:right;
+}
+#drag-outter {
+float:right;
+height:36px;
+width:100%;
+box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+*border: 1px solid #c1c1c1;
+background-color: #c1c1c1;
+}
+#drag-inner {
+height:36px;
+width:36px;
+background: url(img/pointer.png);
+}
+.result {
+text-align: center;
+color: red;
+}
